@@ -22,9 +22,7 @@ def start_pannel(_):
             InlineKeyboardButton('Support 👥️️', url='https://globalbotchat')
         ]
     ]
-)
-
-    return buttons
+return buttons
 
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
